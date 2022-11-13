@@ -1,0 +1,27 @@
+1. oracle에서 java 11 버전 다운
+
+2. Java 환경 변수 세팅
+
+
+내PC > 속성 > 고급 시스템 설정 > 환경변수
+
+★  JAVA_HOME 환경 변수
+JAVA_HOME
+C:\Program Files\Java\jdk-11.0.16.1
+
+PATH 편집
+-새로만들기 : %JAVA_HOME%\bin
+
+CLASSPATH 환경변수
+CLASSPATH
+.; %JAVA_HOME%\lib;
+
+
+완료후 JDK 및 환경변수 테스트 
+
+cmd >> java -version,  javac -version
+
+
+
+- 이클립스 설치경로
+(https://www.eclipse.org/downloads/packages/release/2022-03/r)
